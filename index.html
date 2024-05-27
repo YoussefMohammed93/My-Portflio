@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <!-- Font Awesome Import -->
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS Import -->
+    <link rel="stylesheet" href="CSS/owl.theme.default.min.css"> <!-- OWL Carousel -->
+    <link rel="stylesheet" href="CSS/owl.carousel.min.css"> <!-- OWL Carousel -->
+    <link rel="icon" href="Images/fav-icon.png"> <!-- Fav Icon Image -->
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Main CSS File -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> <!-- Swiper Js -->
+    <title>Matrix | Portfolio</title>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- Home -->
+        <section class="home-section" id="home-section">
+            <!-- Home Section Container -->
+            <div class="section-container main-padding">
+                <!-- Header -->
+                <header class="main-header flex items-center justify-between py-4">
+                    <div class="logo">
+                        <a href="index.html" class="text-4xl font-bold text-[var(--text-color)]">MATRIX</a>
+                    </div>
+                    <ul class="navbar flex items-center">
+                        <li><a href="#home-section" class="text-lg font-bold text-[var(--text-color)] transition-all duration-300 relative flex justify-center items-center px-4">Home</a></li>
+                        <li><a href="#skills-section" class="text-lg font-bold text-[var(--text-color)] transition-all duration-300 relative flex justify-center items-center px-4">Skills</a></li>
+                        <li><a href="#projects-section" class="text-lg font-bold text-[var(--text-color)] transition-all duration-300 relative flex justify-center items-center px-4">Projects</a></li>
+                        <li><a href="#about" class="text-lg font-bold text-[var(--text-color)] transition-all duration-300 relative flex justify-center items-center px-4">About</a></li>
+                        <li><a href="#contact" class="text-lg font-bold text-[var(--text-color)] transition-all duration-300 relative flex justify-center items-center px-4">Contact</a></li>
+                    </ul>
+                    <div class="download flex items-center gap-8">
+                        <a href="/Youssef Mohammed.pdf" download class="text-lg font-bold text-white transition-all duration-500 px-4">Download CV <i class="fa-solid fa-download ml-2"></i></a>
+                        <div class="header-menu">
+                            <i class="fa-solid fa-bars right-4 text-3xl text-[var(--main-color)]" style="top: 18px;"></i>
+                        </div>
+                    </div>
+                </header>
+                <!-- Home Section Main -->
+                <main class="home">
+                    <div class="w-full flex justify-between pt-8 sm:pt-32 relative">
+                        <div>
+                            <div class="home-text max-w-2xl">
+                                <h2 class="text-[var(--text-color)] text-4xl sm:text-5xl font-black uppercase mb-12">Hello, I'm Youssef Mohammed</h2>
+                                <h3 class="text-[var(--text-color)] text-3xl font-bold">A Front End Developer</h3>
+                                <p class="text-[var(--text-color)] text-xl font-semibold" style="max-width: 470px;">I Study At The Faculty Of Computer Science In Mansoura University In Egypt</p>
+                            </div>
+                            <div class="projects-btn mt-20">
+                                <a href="#projects-section" class="bg-[var(--main-color)] text-3xl font-bold px-8 sm:px-16 sm:py-1 text-white transition-all duration-500">Projects</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="home-section-image" style="margin-top: -40px;">
+                                <img src="Images/home-section-blue.svg" alt="home-image" class="max-w-fit">
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <div class="mouse-container flex justify-center">
+                    <a href="#skills-section"><div class="mouse overflow-hidden relative"></div></a>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section class="skills-section" id="skills-section">
+            <!-- Sklls Section Container -->
+            <div class="section-container main-padding mt-10">
+                <div>
+                    <div class="text-center pt-8">
+                        <h1 class="text-4xl sm:text-5xl font-black text-[var(--text-color)] uppercase">My Skills</h1>
+                    </div>
+                    <div class="owl-carousel owl-theme w-full pb-0 sm:pb-4 pt-2 cursor-pointer">
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/HTML.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">HTML</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/CSS.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">CSS</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/JavaScript.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">JavaScript</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/typescript.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">TypeScript</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/Bootstrap.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">BootStrap</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/Tailwind-Css.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">Tailwind CSS</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/SASS.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">Sass</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/gitlab.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">Gitlab</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/social.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">Github</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/react.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">React JS</h2>
+                            </div>
+                        </div>
+                        <div class="skills-card item  flex flex-col items-center gap-5 my-8">
+                            <div>
+                                <img src="Images/figma.png" alt="" width="100px" height="100px">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-bold text-[var(--text-color)]">Figma</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section class="projects-section" id="projects-section">
+            <!-- Projects Section Container -->
+            <div class="section-container main-padding pb-5">
+                <div>
+                    <div class="text-center py-8">
+                        <h1 class="text-4xl sm:text-5xl font-black text-[var(--text-color)] uppercase">My Projects</h1>
+                    </div>
+                    <div class="grid grid-cols-12 gap-6 pb-10">
+                        <div class="project-card col-span-12 sm:col-span-6 lg:col-span-4 relative overflow-hidden rounded-lg">
+                            <img src="Images/ecommerce1.png" alt="Professional Team">
+                            <div class="card-content absolute inset-0 flex flex-col items-center justify-center text-center">
+                                <div class="initial-content">
+                                    <h2 class="text-2xl font-bold text-white uppercase">Native E-Commerce</h2>
+                                </div>
+                                <div class="hover-content flex-col items-center ">
+                                    <p class="text-white mb-4 px-8">Full Responsive E-Commerce Website [ HTML & CSS & Tailwind CSS & JavaScript ]</p>
+                                    <a href="https://e-commerce-prroject-test.netlify.app/" target="_blank" class="py-2 px-4 bg-white text-[var(--main-color)] font-semibold rounded-full">Visit Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card col-span-12 sm:col-span-6 lg:col-span-4 relative overflow-hidden rounded-lg">
+                            <img src="Images/ecommerce2.png" alt="Professional Team">
+                            <div class="card-content absolute inset-0 flex flex-col items-center justify-center text-center">
+                                <div class="initial-content">
+                                    <h2 class="text-2xl font-bold text-white uppercase">Native E-Commerce</h2>
+                                </div>
+                                <div class="hover-content flex-col items-center ">
+                                    <p class="text-white mb-4 px-8">Full Responsive E-Commerce Website [ HTML & CSS & Tailwind CSS & JavaScript ]</p>
+                                    <a href="https://e-ecommerce-js.netlify.app/" target="_blank" class="py-2 px-4 bg-white text-[var(--main-color)] font-semibold rounded-full">Visit Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card col-span-12 sm:col-span-6 lg:col-span-4 relative overflow-hidden rounded-lg">
+                            <img src="Images/react-e-commerce.png" alt="Professional Team">
+                            <div class="card-content absolute inset-0 flex flex-col items-center justify-center text-center">
+                                <div class="initial-content">
+                                    <h2 class="text-2xl font-bold text-white uppercase">React JS E-Commerce</h2>
+                                </div>
+                                <div class="hover-content flex-col items-center ">
+                                    <p class="text-white mb-4 px-8">Full Responsive E-Commerce Website [ Tailwind CSS & React.JS ]</p>
+                                    <a href="https://react-e-commerce-testt.vercel.app/" target="_blank" class="py-2 px-4 bg-white text-[var(--main-color)] font-semibold rounded-full">Visit Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card col-span-12 sm:col-span-6 lg:col-span-4 relative overflow-hidden rounded-lg">
+                            <img src="Images/masarat.png" alt="Professional Team">
+                            <div class="card-content absolute inset-0 flex flex-col items-center justify-center text-center">
+                                <div class="initial-content">
+                                    <h2 class="text-2xl font-bold text-white uppercase">Arabic E-Commerce</h2>
+                                </div>
+                                <div class="hover-content flex-col items-center ">
+                                    <p class="text-white mb-4 px-8">Full Responsive E-Commerce Website [ HTML & CSS & Bootstrap & JavaScript ]</p>
+                                    <a href="https://masaratwc.com/" target="_blank" class="py-2 px-4 bg-white text-[var(--main-color)] font-semibold rounded-full">Visit Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card col-span-12 sm:col-span-6 lg:col-span-4 relative overflow-hidden rounded-lg">
+                            <img src="Images/dashboard.png" alt="Professional Team">
+                            <div class="card-content absolute inset-0 flex flex-col items-center justify-center text-center">
+                                <div class="initial-content">
+                                    <h2 class="text-2xl font-bold text-white uppercase">Dashboard</h2>
+                                </div>
+                                <div class="hover-content flex-col items-center ">
+                                    <p class="text-white mb-4 px-8">Full Responsive Dashboard Website [ HTML & CSS & Bootstrap & JavaScript ]</p>
+                                    <a href="https://dashboard-boot-strap-rix.vercel.app/" target="_blank" class="py-2 px-4 bg-white text-[var(--main-color)] font-semibold rounded-full">Visit Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card col-span-12 sm:col-span-6 lg:col-span-4 relative overflow-hidden rounded-lg">
+                            <img src="Images/temp1.png" alt="Professional Team">
+                            <div class="card-content absolute inset-0 flex flex-col items-center justify-center text-center">
+                                <div class="initial-content">
+                                    <h2 class="text-2xl font-bold text-white uppercase">Dashboard</h2>
+                                </div>
+                                <div class="hover-content flex-col items-center ">
+                                    <p class="text-white mb-4 px-8">Full Responsive Dashboard Website [ HTML & CSS ]</p>
+                                    <a href="https://matrix-template-1.vercel.app/" target="_blank" class="py-2 px-4 bg-white text-[var(--main-color)] font-semibold rounded-full">Visit Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about" id="about">
+            <!-- About Section Container -->
+            <div class="section-container main-padding">
+                <div>
+                    <div class="text-center py-8">
+                        <h1 class="text-4xl sm:text-5xl font-black text-[var(--text-color)] uppercase">About Me</h1>
+                    </div>
+                    <div class="main-about grid grid-cols-12 pb-6 gap-5">
+                        <div class="about-image col-span-12 order-2 lg:order-1 lg:col-span-5 pt-6 lg:pt-0">
+                            <img src="Images/about.svg" alt="about" class="w-full h-full">
+                        </div>
+                        <div class="about-text flex flex-col items-start col-span-12 pt-0 lg:pt-16 order-1 lg:order-2 lg:col-span-7">
+                            <p class="text-[var(--text-color)] text-lg md:font-semibold">I'm Youssef Mohamed, Mastering front-end development, I delight in crafting enchanting digital experiences from ideas. With over a year in the field, I blend creativity with technical finesse to create unforgettable web journeys.
+
+                                Proficient in HTML, CSS, and JavaScript, I wield the latest frameworks like TypeScript and React.JS to build dynamic, eye-catching interfaces. Beyond, I excel in CSS preprocessors like SASS, and frameworks like Tailwind CSS and Bootstrap for precise aesthetic shaping.
+                                
+                                Alongside technical skills, I bring a collaborative spirit and dedication to client success. Thriving in teamwork, I foster creativity and drive positivity in every project, sharing solutions and meeting complex challenges with enthusiasm and experience.
+                            </p>
+                            <div class="w-full flex items-center justify-center lg:justify-start gap-5 mt-10">
+                                <div>
+                                    <a href="/Youssef Mohammed.pdf" download class="bg-[var(--main-color)] py-2 px-8 text-white border-2 border-transparent hover:border-[var(--text-color)] transition-all duration-300 text-lg font-bold shadow">Download CV</a>
+                                </div>
+                                <div>
+                                    <a href="#contact" class="bg-[var(--main-color)] py-2 px-8 text-white border-2 border-transparent hover:border-[var(--text-color)] transition-all duration-300 text-lg font-bold shadow">Hire Me</a>
+                                </div>
+                            </div>
+                            <div class="w-full flex items-center justify-center lg:justify-start gap-6 mt-12">
+                                <div>
+                                    <a href="https://www.facebook.com/profile.php?id=61552702670893" target="_blank" class="shadow-md">
+                                        <img src="Images/facebook.png" alt="facebook" width="60px" height="60px">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/youssef_mohamed.93/" target="_blank" class="shadow-md">
+                                        <img src="Images/instagram.png" alt="facebook" width="60px" height="60px">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://wa.me/+201096030194" target="_blank" class="shadow-md">
+                                        <img src="Images/whatsapp.png" alt="facebook" width="64px" height="64px">
+                                    </a>
+                                </div>
+                                <div class="pl-1">
+                                    <a href="https://www.linkedin.com/in/youssef-mohammed-3818412bb/" target="_blank" class="shadow-md">
+                                        <img src="Images/linkedin-logo.png" alt="facebook" width="60px" height="60px">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Customers -->
+        <section class="customers" id="customers">
+            <!-- Customers Section Container -->
+            <div class="section-container main-padding">
+                <div class="mb-12">
+                    <div class="text-center py-8">
+                        <h1 class="text-4xl sm:text-5xl font-black text-[var(--text-color)] uppercase">What Our Customers Say?</h1>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="customer-card flex items-center justify-center flex-col border p-5 rounded">
+                                    <img src="Images/avatar-01.png" alt="avatar" class="w-28 h-28 rounded-full">
+                                    <h3 class="text-2xl font-bold my-2 text-[var(--text-color)]">Rami Ahmed</h3>
+                                    <p class="text-center text-[var(--text-p)]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, sed, quam facere repellat iste eveniet perspiciatis numquam nobis ipsum aperiam maiores. Sequi et debitis officiis reprehenderit sunt, voluptate aut doloremque.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card flex items-center justify-center flex-col border p-5 rounded">
+                                    <img src="Images/avatar-02.png" alt="avatar" class="w-28 h-28 rounded-full">
+                                    <h3 class="text-2xl font-bold my-2 text-[var(--text-color)]">Mazen Kareem</h3>
+                                    <p class="text-center text-[var(--text-p)]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, sed, quam facere repellat iste eveniet perspiciatis numquam nobis ipsum aperiam maiores. Sequi et debitis officiis reprehenderit sunt, voluptate aut doloremque.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card flex items-center justify-center flex-col border p-5 rounded">
+                                    <img src="Images/avatar-03.png" alt="avatar" class="w-28 h-28 rounded-full">
+                                    <h3 class="text-2xl font-bold my-2 text-[var(--text-color)]">Youssef Hamdi</h3>
+                                    <p class="text-center text-[var(--text-p)]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, sed, quam facere repellat iste eveniet perspiciatis numquam nobis ipsum aperiam maiores. Sequi et debitis officiis reprehenderit sunt, voluptate aut doloremque.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card flex items-center justify-center flex-col border p-5 rounded">
+                                    <img src="Images/avatar-04.png" alt="avatar" class="w-28 h-28 rounded-full">
+                                    <h3 class="text-2xl font-bold my-2 text-[var(--text-color)]">Mohammed Gamal</h3>
+                                    <p class="text-center text-[var(--text-p)]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, sed, quam facere repellat iste eveniet perspiciatis numquam nobis ipsum aperiam maiores. Sequi et debitis officiis reprehenderit sunt, voluptate aut doloremque.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card flex items-center justify-center flex-col border p-5 rounded">
+                                    <img src="Images/avatar-05.png" alt="avatar" class="w-28 h-28 rounded-full">
+                                    <h3 class="text-2xl font-bold my-2 text-[var(--text-color)]">Jamal Abdo</h3>
+                                    <p class="text-center text-[var(--text-p)]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, sed, quam facere repellat iste eveniet perspiciatis numquam nobis ipsum aperiam maiores. Sequi et debitis officiis reprehenderit sunt, voluptate aut doloremque.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card flex items-center justify-center flex-col border p-5 rounded">
+                                    <img src="Images/avatar-06.png" alt="avatar" class="w-28 h-28 rounded-full">
+                                    <h3 class="text-2xl font-bold my-2 text-[var(--text-color)]">Hazem AboBakr</h3>
+                                    <p class="text-center text-[var(--text-p)]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, sed, quam facere repellat iste eveniet perspiciatis numquam nobis ipsum aperiam maiores. Sequi et debitis officiis reprehenderit sunt, voluptate aut doloremque.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <!-- Contact Section Container -->
+            <div class="section-container main-padding">
+                <div class="grid grid-cols-12 gap-4 items-center">
+                    <div class="col-span-12 lg:col-span-7 order-1 lg:order-none">
+                        <div class="flex justify-center lg:justify-start">
+                            <img src="Images/contact.svg" alt="contact">
+                        </div>
+                    </div>
+                    <div class="col-span-12 lg:col-span-5 lg:order-1 flex items-center justify-center py-12">
+                        <div class="contact-form p-8 bg-[var(--bg-color)] rounded-lg shadow-sm w-full">
+                            <h1 class="text-2xl font-bold mb-4 text-[var(--text-color)]">Contact</h1>
+                            <form action="#" method="POST">
+                                <div class="mb-4">
+                                    <label for="name" class="block text-sm font-medium text-[var(--text-color)]">Name</label>
+                                    <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 border border-[var(--border-color)] rounded-md shadow-sm focus:outline-none bg-[var(--sec-bg-color)] text-[var(--text-color)] sm:text-sm" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="email" class="block text-sm font-medium text-[var(--text-color)]">Email</label>
+                                    <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-[var(--border-color)] rounded-md shadow-sm focus:outline-none bg-[var(--sec-bg-color)] text-[var(--text-color)] sm:text-sm" required>
+                                </div>
+                                <div class="mb-6">
+                                    <label for="message" class="block text-sm font-medium text-[var(--text-color)]">Message</label>
+                                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-3 py-2 border border-[var(--border-color)] rounded-md shadow-sm focus:outline-none bg-[var(--sec-bg-color)] text-[var(--text-color)] sm:text-sm resize-none" required></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-[var(--main-color)] text-white font-bold text-xl py-2 px-4 rounded-md focus:outline-none">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-[var(--bg-color)] text-[var(--text-color)] p-5 border-t border-[var(--border-color)]">
+            <div class="main-padding mx-auto">
+                <div class="sm:flex justify-between items-center">
+                    <div class="mb-6 sm:mb-0">
+                        <h2 class="text-2xl font-bold">Youssef Mohammed Ramadan</h2>
+                        <div class="pt-5">
+                            <p><i class="fa-solid fa-location-dot pr-2 text-[var(--text-color)]"></i> Mansoura, Egypt</p>
+                            <p class="py-3"><i class="fa-solid fa-phone pr-2 text-[var(--text-color)]"></i> +201096030194</p>
+                            <p><i class="fa-solid fa-envelope pr-2 text-[var(--text-color)]"></i> ixyoussef46@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-5 sm:flex sm:space-x-8">
+                        <div>
+                            <h3 class="font-bold pb-2">Resources</h3>
+                            <ul class="resources">
+                                <li><a href="#contact">Blog</a></li>
+                                <li><a href="#contact">FAQs</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-bold pb-2">Legal</h3>
+                            <ul class="legal">
+                                <li><a href="#contact" class="hover:text-gray-300">Terms of Service</a></li>
+                                <li><a href="#contact" class="hover:text-gray-300">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-8 sm:mt-4">
+                    <div class="footer-links flex justify-center space-x-4 mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=61552702670893" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/youssef_mohamed.93/" target="_blank">Instagram</a>
+                        <a href="https://wa.me/+201096030194" target="_blank">Whatsapp</a>
+                        <a href="https://www.linkedin.com/in/youssef-mohammed-3818412bb/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <p class="text-[var(--text-p)] text-center text-sm mt-8 pb-4">© 2024 Matrix. All rights reserved.</p>
+            </div>
+        </footer>        
+    </div>
+    <!-- Settings Box -->
+    <div class="settings-box fixed top-0 w-52 min-h-screen z-40 transition-all duration-500">
+        <div class="toggle-settings cursor-pointer absolute text-center w-8">
+            <i class="fa fa-gear text-xl text-white"></i>
+        </div>
+        <div class="settings-container relative flex items-center flex-col">
+            <div class="option-box flex items-center flex-col w-40 m-5 gap-4 p-3 rounded-md">
+                <h3 class="text-2xl font-black text-[var(--main-color)]">Colors</h3>
+                <ul class="colors-list flex items-center justify-between gap-2">
+                    <li class="colors-active cursor-pointer rounded-full w-6 h-6 border-2 border-white" data-color="#009DFF"></li>
+                    <li class="cursor-pointer rounded-full w-6 h-6 border-2 border-white" data-color="#FF7575"></li>
+                    <li class="cursor-pointer rounded-full w-6 h-6 border-2 border-white" data-color="#4AB84D"></li>
+                    <li class="cursor-pointer rounded-full w-6 h-6 border-2 border-white" data-color="#FFA500"></li>
+                </ul>
+            </div>
+            <div class="darkmode flex items-center flex-col w-40 m-5 gap-4 p-3 rounded-md">
+                <h3 class="text-2xl font-black text-[var(--main-color)]">Dark Mode</h3>
+                <div class="darkmode-buttons flex items-center justify-between gap-5">
+                    <div class="darkmode-on">
+                        <a href="#" id="darkModeOn" class=" rounded text-white bg-[var(--main-color)] px-4">On</a>
+                    </div>
+                    <div class="darkmode-off">
+                        <a href="#" id="darkModeOff" class="darkmode-active px-4 rounded text-white bg-[var(--main-color)] ">Off</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Circles -->
+    <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- Scroll To Top -->
+    <div class="scroll-to-top">
+        <div class="flex items-center justify-center">
+            <button type="button" class="px-2 bg-[var(--main-color)] text-white rounded-sm border-2 border-transparent"><i class="fa-solid fa-chevron-up text-xl mt-1"></i></button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- JQuery -->
+    <script src="JavaScript/owl.carousel.min.js"></script> <!-- OWL Carousel -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Swiper Js -->
+    <script src="JavaScript/main.js"></script> <!-- Main JavaScript File -->
+</body>
+</html>
